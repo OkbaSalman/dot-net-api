@@ -1,0 +1,22 @@
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Host=localhost;Port=5444;Database=database;Username=username;Password=password"
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "Jwt": {
+    "Key": "key",
+    "Issuer": "Warehouse.Api",
+    "Audience": "Warehouse.Api",
+    "ExpiresMinutes": 60
+  },
+  "Admin": {
+    "Email": "email",
+    "Password": "password"
+  },
+  "AllowedHosts": "*"
+}

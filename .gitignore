@@ -1,0 +1,11 @@
+bin/
+obj/
+.vs/
+*.user
+*.suo
+.idea/
+TestResults/
+
+Warehouse.Api/appsettings.json
+Warehouse.Api/Warehouse.Api.http
+docker-compose.warehouse.yml
